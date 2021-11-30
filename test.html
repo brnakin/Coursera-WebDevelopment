@@ -4,195 +4,118 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Raleway", sans-serif
-    }
-
-    body,
-    html {
-        height: 100%;
-        line-height: 1.8;
-    }
-
-    /* Full height image header */
-    .bgimg-1 {
-        background-position: center;
-        background-size: cover;
-        background-image: url("/w3images/mac.jpg");
-        min-height: 100%;
-    }
-
-    .w3-bar .w3-button {
-        padding: 16px;
-    }
-</style>
 
 <body>
 
     <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+    <nav class="honeypot-sidebar honeypot-bar-block honeypot-black honeypot-card honeypot-animate-left honeypot-hide-medium honeypot-hide-large"
         style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
+        <a href="javascript:void(0)" onclick="w3_close()" class="honeypot-bar-item honeypot-button honeypot-large honeypot-padding-16">Close
             &times;</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="#about" onclick="w3_close()" class="honeypot-bar-item honeypot-button">ABOUT</a>
+        <a href="#team" onclick="w3_close()" class="honeypot-bar-item honeypot-button">TEAM</a>
+        <a href="#work" onclick="w3_close()" class="honeypot-bar-item honeypot-button">WORK</a>
     </nav>
 
     <!-- Header with full-height image -->
-    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-left w3-text-white" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
-            <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+    <header class="bgimg-1 honeypot-display-container honeypot-grayscale-min" id="home">
+        <div class="honeypot-display-left honeypot-text-white" style="padding:48px">
+            <span class="honeypot-jumbo honeypot-hide-small">Start something that matters</span><br>
+            <span class="honeypot-xxlarge honeypot-hide-large honeypot-hide-medium">Start something that matters</span><br>
+            <span class="honeypot-large">Protect your systems from attackers.</span>
             <p><a href="#about"
-                    class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn
-                    more and start today</a></p>
-        </div>
-        <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+                    class="honeypot-button honeypot-white honeypot-padding-large honeypot-large honeypot-margin-top honeypot-opacity honeypot-hover-opacity-off">Learn
+                    more</a></p>
         </div>
     </header>
 
     <!-- About Section -->
-    <div class="w3-container" style="padding:128px 16px" id="about">
-        <h3 class="w3-center">ABOUT THE COMPANY</h3>
-        <p class="w3-center w3-large">Key features of our company</p>
-        <div class="w3-row-padding w3-center" style="margin-top:64px">
-            <div class="w3-quarter">
-                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-                <p class="w3-large">Responsive</p>
+    <div class="honeypot-container" style="padding:128px 16px" id="about">
+        <h3 class="honeypot-center">ABOUT THE PROJECT</h3>
+        <p class="honeypot-center honeypot-large">Key features of our project</p>
+        <div class="honeypot-row-padding honeypot-center" style="margin-top:64px">
+            <div class="honeypot-quarter">
+                <i class="fa fa-desktop honeypot-margin-bottom honeypot-jumbo honeypot-center"></i>
+                <p class="honeypot-large">Detection</p>
+                <p>Detects attackers who attack the system and detects which system or service it is exploiting.</p>
+            </div>
+            <div class="honeypot-quarter">
+                <i class="fa fa-heart honeypot-margin-bottom honeypot-jumbo"></i>
+                <p class="honeypot-large">Premitigation</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore.</p>
             </div>
-            <div class="w3-quarter">
-                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Passion</p>
+            <div class="honeypot-quarter">
+                <i class="fa fa-diamond honeypot-margin-bottom honeypot-jumbo"></i>
+                <p class="honeypot-large">Response</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore.</p>
             </div>
-            <div class="w3-quarter">
-                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Design</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore.</p>
-            </div>
-            <div class="w3-quarter">
-                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Support</p>
+            <div class="honeypot-quarter">
+                <i class="fa fa-cog honeypot-margin-bottom honeypot-jumbo"></i>
+                <p class="honeypot-large">Protection</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore.</p>
             </div>
         </div>
     </div>
-    
-    <!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
-
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
-    </div>
-  </div>
-</div>
 
     <!-- Team Section -->
-    <div class="w3-container" style="padding:128px 16px" id="team">
-        <h3 class="w3-center">THE TEAM</h3>
-        <p class="w3-center w3-large">The ones who runs this company</p>
-        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-card">
+    <div class="honeypot-container" style="padding:128px 16px" id="team">
+        <h3 class="honeypot-center">THE TEAM</h3>
+        <p class="honeypot-center honeypot-large">The ones who runs this company</p>
+        <div class="honeypot-row-padding honeypot-grayscale" style="margin-top:64px">
+            <div class="honeypot-col l3 m6 honeypot-margin-bottom">
+                <div class="honeypot-card">
                     <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-                    <div class="w3-container">
+                    <div class="honeypot-container">
                         <h3>John Doe</h3>
-                        <p class="w3-opacity">CEO & Founder</p>
+                        <p class="honeypot-opacity">CEO & Founder</p>
                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
                             elementum.</p>
-                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                        <p><button class="honeypot-button honeypot-light-grey honeypot-block"><i class="fa fa-envelope"></i>
                                 Contact</button></p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-card">
+            <div class="honeypot-col l3 m6 honeypot-margin-bottom">
+                <div class="honeypot-card">
                     <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-                    <div class="w3-container">
+                    <div class="honeypot-container">
                         <h3>Anja Doe</h3>
-                        <p class="w3-opacity">Art Director</p>
+                        <p class="honeypot-opacity">Art Director</p>
                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
                             elementum.</p>
-                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                        <p><button class="honeypot-button honeypot-light-grey honeypot-block"><i class="fa fa-envelope"></i>
                                 Contact</button></p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-card">
+            <div class="honeypot-col l3 m6 honeypot-margin-bottom">
+                <div class="honeypot-card">
                     <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-                    <div class="w3-container">
+                    <div class="honeypot-container">
                         <h3>Mike Ross</h3>
-                        <p class="w3-opacity">Web Designer</p>
+                        <p class="honeypot-opacity">Web Designer</p>
                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
                             elementum.</p>
-                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                        <p><button class="honeypot-button honeypot-light-grey honeypot-block"><i class="fa fa-envelope"></i>
                                 Contact</button></p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-card">
+            <div class="honeypot-col l3 m6 honeypot-margin-bottom">
+                <div class="honeypot-card">
                     <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-                    <div class="w3-container">
+                    <div class="honeypot-container">
                         <h3>Dan Star</h3>
-                        <p class="w3-opacity">Designer</p>
+                        <p class="honeypot-opacity">Designer</p>
                         <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
                             elementum.</p>
-                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                        <p><button class="honeypot-button honeypot-light-grey honeypot-block"><i class="fa fa-envelope"></i>
                                 Contact</button></p>
                     </div>
                 </div>
